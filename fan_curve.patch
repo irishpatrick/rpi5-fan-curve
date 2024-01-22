@@ -1,0 +1,13 @@
+diff --git a/arch/arm/boot/dts/bcm2712-rpi-5-b.dts b/arch/arm/boot/dts/bcm2712-rpi-5-b.dts
+index d960bc456..63788ac56 100644
+--- a/arch/arm/boot/dts/bcm2712-rpi-5-b.dts
++++ b/arch/arm/boot/dts/bcm2712-rpi-5-b.dts
+@@ -438,7 +438,7 @@ fan: cooling_fan {
+ 		#cooling-cells = <2>;
+ 		cooling-min-state = <0>;
+ 		cooling-max-state = <3>;
+-		cooling-levels = <0 75 125 175 250>;
++		cooling-levels = <0 75 90 150 250>;
+ 		pwms = <&rp1_pwm1 3 41566 PWM_POLARITY_INVERTED>;
+ 		rpm-regmap = <&rp1_pwm1>;
+ 		rpm-offset = <0x3c>;
