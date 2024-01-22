@@ -1,5 +1,5 @@
 # rpi5-fan-curve
-Device tree patch to improve the Raspberry Pi 5 Case fan curve
+Device tree patch to improve the acoustics of the Raspberry Pi 5 Case fan curve.
 
 # Usage
 - Set up the Raspberry Pi linux kernel folliwing the instructions [here](https://www.raspberrypi.com/documentation/computers/linux_kernel.html).
